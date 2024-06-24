@@ -1,12 +1,19 @@
-# php-server
-A simple PHP server that listens on a specified IP address and port
-# PHP Server
+# IP Address Server
 
-A simple PHP server that listens on a specified IP address and port.
+This repository contains a simple Python server that displays the local IP address of the machine it runs on.
 
-## How to Use
+## Description
+
+The `ip_server.py` script sets up an HTTP server that responds with the local IP address of the server machine when accessed via a web browser.
+
+## Requirements
+
+- Python 3.x
+
+## Usage
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/php-server.git
-   cd php-server
+
+   ```plaintext
+   git clone https://github.com/yourusername/ip-address-server.git
+   cd ip-address-server
