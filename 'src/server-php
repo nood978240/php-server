@@ -1,0 +1,11 @@
+<?php
+// src/server.php
+
+// Set the IP address and port
+$ip = '127.0.0.1'; // Change this to your desired IP address
+$port = 8000;
+
+// Start the PHP built-in server
+$command = "php -S $ip:$port";
+echo "Starting server at http://$ip:$port\n";
+system($command);
